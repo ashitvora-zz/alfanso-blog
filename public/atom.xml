@@ -2,42 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[ALFANSO]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2014-01-25T14:55:42+05:30</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://alfanso.com/atom.xml" rel="self"/>
+  <link href="http://alfanso.com/"/>
+  <updated>2014-01-25T16:13:31+05:30</updated>
+  <id>http://alfanso.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Alfanso]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Grammy award: Monster Shaddy Rihanna album]]></title>
-    <link href="http://yoursite.com/blog/2014/01/21/grammy-award-monster-shaddy-rihanna-album/"/>
-    <updated>2014-01-21T18:15:03+05:30</updated>
-    <id>http://yoursite.com/blog/2014/01/21/grammy-award-monster-shaddy-rihanna-album</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Grammy award: Lilwayne album]]></title>
-    <link href="http://yoursite.com/blog/2014/01/21/grammy-award-lilwayne-album/"/>
-    <updated>2014-01-21T18:14:48+05:30</updated>
-    <id>http://yoursite.com/blog/2014/01/21/grammy-award-lilwayne-album</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Zombie Ninjas Attack: A survivor's retrospective]]></title>
-    <link href="http://yoursite.com/blog/2014/01/21/zombie-ninjas-attack-a-survivors-retrospective/"/>
-    <updated>2014-01-21T18:14:25+05:30</updated>
-    <id>http://yoursite.com/blog/2014/01/21/zombie-ninjas-attack-a-survivors-retrospective</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
   
 </feed>
