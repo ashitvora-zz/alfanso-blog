@@ -1,0 +1,25 @@
+.footer-main, .footer-bottom {
+  color: #676e76;
+
+  h1, h2, h3, h4, h5, h6{
+    color: #fff;
+  }
+
+  a{
+    color: #917ab8;
+
+    &:hover,
+    &:focus{
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  .footer-address {
+    color: #917ab8;
+  }
+}
+
+.footer-main {
+  border-top: 10px solid #14171a;
+  background: #1f2329;
+}

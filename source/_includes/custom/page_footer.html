@@ -1,0 +1,103 @@
+<footer class="bg-alt" id="footer">
+  <div class="wrapper-sm footer-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <h3>Address</h3>
+          <address class="footer-address">
+            <strong>Alfanso</strong><br>
+            125 Shanti Chambers,<br>
+            Bhuj (Gujarat),<br>
+            India<br>
+          </address>
+        </div>
+        <div class="col-sm-6 col-md-8">
+          <h3>
+            Got an idea to pitch or just want to say Hi.</br>
+            Give us a ding :)
+          </h3>
+          <ul class="list-unstyled">
+            <li>
+              Phone: <a href="#">+91 94083 14964</a>
+            </li>
+            <li>
+              Email: <a href="mailto:ashit.vora@alfanso.com">ashit.vora@alfanso.com</a>
+            </li>
+            <li>
+              Social:
+              <a class="twitter" href="#"><i class="icon-twitter"></i></a>
+              <a class="facebook" href="#"><i class="icon-facebook"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  <script src="{{ root_url }}/javascripts/bootstrap.min.js"></script>
+  <script src="{{ root_url }}/javascripts/jquery.anchor.js"></script>
+  <script async="" src="{{ root_url }}/javascripts/widgets.js" charset="utf-8"></script>
+  <script src="{{ root_url }}/javascripts/jquery.easing-1.3.pack.js"></script>
+  <script src="{{ root_url }}/javascripts/jquery.mousewheel-3.0.4.pack.js"></script>
+  <script src="{{ root_url }}/javascripts/jquery.isotope.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // initialize Isotope inside $(window).load() instead of $(document).ready()
+      // because Isotope needs to measure media size to avoid overlapping
+      $(window).load(function () {
+        // isotope filter setup
+        var $container = $('#portfolio-container');
+        $container.isotope({
+            filter: "*",
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false,
+            }
+        });
+        // isotope filter button
+        $("#filters a").click(function () {
+            var selector = $(this).attr('data-filter');
+            $container.isotope({
+                filter: selector,
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear',
+                    queue: false,
+                }
+            });
+            return false;
+        });
+        // filter behavior
+        var $optionSets = $('#filters'),
+            $optionLinks = $optionSets.find('a');
+        $optionLinks.click(function () {
+            var $this = $(this);
+            // don't proceed if already selected
+            if ($this.hasClass('active')) {
+              return false;
+            }
+
+            // add active class to selected filter tag
+            var $optionSet = $this.parents('#filters');
+            $optionSet.find('.active').removeClass('active');
+            $this.addClass('active');
+        });
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    jQuery(function(){
+      var getNavHeight = function() {
+        return jQuery(".navbar").first().height() - 20;
+      };
+      var getWindowHeight = function() {
+        return jQuery(window).height();
+      };
+      var adjustSectionHeight = function() {
+        jQuery("section").css("min-height", getWindowHeight() - getNavHeight());
+      };
+      adjustSectionHeight();
+      jQuery(window).on("resize", adjustSectionHeight);
+    });
+  </script>

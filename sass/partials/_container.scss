@@ -1,0 +1,223 @@
+$alt-bg: #eceef1;
+
+.wrapper-sm,
+.wrapper-lg {
+  width: auto;
+}
+
+.wrapper-sm{
+  padding: 20px 0;
+}
+.wrapper-lg{
+  padding: 80px 0;
+}
+
+.service-block {
+  height: 350px;
+}
+
+.blog-container{
+  padding-top: 50px;
+}
+
+.bg-alt {
+  background: $alt-bg;
+  border-top: 1px solid #dde1e6;
+  border-bottom: 1px solid #dde1e6;
+
+  hr {
+    border-top-color: #dde1e6;
+  }
+
+  .well {
+    background: #fff;
+  }
+
+  .plan {
+    background: #fff;
+  }
+}
+
+.spacer-lg {
+  margin-bottom: 40px;
+  line-height: 40px;
+}
+
+.tile {
+  background: $alt-bg;
+  padding: 20px;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+.spacer-xl {
+  margin-bottom: 80px;
+  line-height: 80px;
+}
+
+.plan {
+  background: #eceef1;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  border: 1px solid #dde1e6;
+  margin-bottom: 15px;
+  text-align: center;
+  .plan-name {
+    padding: 10px 20px;
+    background: #14171a;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    h3 {
+      color: #fff;
+    }
+  }
+  .plan-info {
+    padding: 20px;
+    background: #1f2329;
+  }
+  .plan-price h1 {
+    font-size: 60px;
+    line-height: 100%;
+    padding: 20px;
+    small {
+      font-size: 14px;
+    }
+  }
+  .plan-features {
+    list-style: none;
+    padding: 0;
+    li {
+      padding: 10px 20px;
+      border-bottom: 1px solid #dde1e6;
+      -webkit-box-shadow: 0 1px 0 0 #fbfbfc;
+      -moz-box-shadow: 0 1px 0 0 #fbfbfc;
+      box-shadow: 0 1px 0 0 #fbfbfc;
+    }
+  }
+  .plan-cta {
+    padding: 20px;
+  }
+  &.plan-featured {
+    .plan-name {
+      background: #917ab8;
+    }
+    .plan-info {
+      background: #19b698;
+      > p {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.hexagon {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 55px;
+  margin: 80px auto 50px;
+  color: #fff;
+  text-align: center;
+  background: #917ab8;
+  &:before {
+    content: " ";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid #917ab8;
+  }
+  &:after {
+    content: " ";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid #917ab8;
+  }
+
+  .img-laravel {
+    margin-left: -5px;
+    margin-top: -22px;
+    max-width: 100%;
+  }
+  .angularjs-img {
+    max-height: 100%;
+  }
+}
+
+.ribbon {
+  position: relative;
+  margin-left: -9px;
+  margin-right: -9px;
+  padding-left: 9px;
+  line-height: 30px;
+  background: #917ab8;
+  color: #fff;
+  &:after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    border: 15px solid #917ab8;
+    border-color: transparent;
+    border-right-color: #fff;
+  }
+}
+
+.responsive-design-service {
+  padding-top: 10px;
+  .icon-desktop {
+    margin-left: 10px;
+  }
+}
+
+.client-list-rack {
+  margin-top: 3%;
+  padding: 0 13%;
+}
+
+.clients img {
+  max-width: 100%;
+  margin-top: 10px;
+  &.adjust {
+    margin-top: 20px;
+  }
+
+  .first-client-img {
+    margin-left: 0;
+  }
+}
+.client-tweet-row {
+  font-style: italic;
+  margin-top: 30px;
+  img {
+    margin-bottom: 20px;
+  }
+  .client-description {
+    border-bottom: 1px dashed;
+    padding-bottom: 40px;
+  }
+}
+
+.client-tweet-last-row .client-description {
+  border: none;
+}

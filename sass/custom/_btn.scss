@@ -1,0 +1,202 @@
+.btn-default {
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  border: 1px solid #090a0c;
+  -webkit-box-shadow: 0 3px 0 0 #000;
+  -moz-box-shadow: 0 3px 0 0 #000;
+  box-shadow: 0 3px 0 0 #000;
+  background: #1f2329;
+  &:hover, &:focus, &:active, &.active {
+    color: #fff;
+    border: 1px solid #090a0c;
+    -webkit-box-shadow: 0 3px 0 0 #090a0c;
+    -moz-box-shadow: 0 3px 0 0 #090a0c;
+    box-shadow: 0 3px 0 0 #090a0c;
+    background: #2a2f38;
+  }
+  &[disabled], &.disabled, &[disabled]:hover, &.disabled:hover, &[disabled]:focus, &.disabled:focus, &[disabled]:active, &.disabled:active, &[disabled].active, &.disabled.active {
+    border: 1px solid #000;
+    background: #000;
+  }
+  &:active, &.active {
+    position: relative;
+    top: 1px;
+  }
+}
+
+.btn-group.open .btn-default.dropdown-toggle {
+  -webkit-box-shadow: 0 3px 0 0 #000;
+  -moz-box-shadow: 0 3px 0 0 #000;
+  box-shadow: 0 3px 0 0 #000;
+}
+
+.btn-primary {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  border: 1px solid #917ab8;
+  -webkit-box-shadow: 0 3px 0 0 #107360;
+  -moz-box-shadow: 0 3px 0 0 #107360;
+  box-shadow: 0 3px 0 0 #107360;
+  text-shadow: 0 -1px 0 #107360;
+  background: #917ab8;
+  &:hover, &:focus, &:active, &.active {
+    border: 1px solid #19b698;
+    background: #19b698;
+  }
+  &[disabled], &.disabled, &[disabled]:hover, &.disabled:hover, &[disabled]:focus, &.disabled:focus, &[disabled]:active, &.disabled:active, &[disabled].active, &.disabled.active {
+    border: 1px solid #138a72;
+    background: #138a72;
+  }
+  &:active, &.active {
+    position: relative;
+    top: 1px;
+  }
+}
+
+.btn-group.open .btn-primary.dropdown-toggle {
+  -webkit-box-shadow: 0 3px 0 0 #107360;
+  -moz-box-shadow: 0 3px 0 0 #107360;
+  box-shadow: 0 3px 0 0 #107360;
+}
+
+.btn-info {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  border: 1px solid #3498db;
+  -webkit-box-shadow: 0 3px 0 0 #217dbb;
+  -moz-box-shadow: 0 3px 0 0 #217dbb;
+  box-shadow: 0 3px 0 0 #217dbb;
+  text-shadow: 0 -1px 0 #217dbb;
+  background: #3498db;
+  &:hover, &:focus, &:active, &.active {
+    border: 1px solid #4aa3df;
+    background: #4aa3df;
+  }
+  &[disabled], &.disabled, &[disabled]:hover, &.disabled:hover, &[disabled]:focus, &.disabled:focus, &[disabled]:active, &.disabled:active, &[disabled].active, &.disabled.active {
+    border: 1px solid #258cd1;
+    background: #258cd1;
+  }
+  &:active, &.active {
+    position: relative;
+    top: 1px;
+  }
+}
+
+.btn-group.open .btn-info.dropdown-toggle {
+  -webkit-box-shadow: 0 3px 0 0 #217dbb;
+  -moz-box-shadow: 0 3px 0 0 #217dbb;
+  box-shadow: 0 3px 0 0 #217dbb;
+}
+
+.btn-success {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  border: 1px solid #27ae60;
+  -webkit-box-shadow: 0 3px 0 0 #1e8449;
+  -moz-box-shadow: 0 3px 0 0 #1e8449;
+  box-shadow: 0 3px 0 0 #1e8449;
+  text-shadow: 0 -1px 0 #1e8449;
+  background: #27ae60;
+  &:hover, &:focus, &:active, &.active {
+    border: 1px solid #2cc36b;
+    background: #2cc36b;
+  }
+  &[disabled], &.disabled, &[disabled]:hover, &.disabled:hover, &[disabled]:focus, &.disabled:focus, &[disabled]:active, &.disabled:active, &[disabled].active, &.disabled.active {
+    border: 1px solid #295;
+    background: #295;
+  }
+  &:active, &.active {
+    position: relative;
+    top: 1px;
+  }
+}
+
+.btn-group.open .btn-success.dropdown-toggle {
+  -webkit-box-shadow: 0 3px 0 0 #1e8449;
+  -moz-box-shadow: 0 3px 0 0 #1e8449;
+  box-shadow: 0 3px 0 0 #1e8449;
+}
+
+.btn-warning {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  border: 1px solid #f39c12;
+  -webkit-box-shadow: 0 3px 0 0 #c87f0a;
+  -moz-box-shadow: 0 3px 0 0 #c87f0a;
+  box-shadow: 0 3px 0 0 #c87f0a;
+  text-shadow: 0 -1px 0 #c87f0a;
+  background: #f39c12;
+  &:hover, &:focus, &:active, &.active {
+    border: 1px solid #f4a62a;
+    background: #f4a62a;
+  }
+  &[disabled], &.disabled, &[disabled]:hover, &.disabled:hover, &[disabled]:focus, &.disabled:focus, &[disabled]:active, &.disabled:active, &[disabled].active, &.disabled.active {
+    border: 1px solid #e08e0b;
+    background: #e08e0b;
+  }
+  &:active, &.active {
+    position: relative;
+    top: 1px;
+  }
+}
+
+.btn-group.open .btn-warning.dropdown-toggle {
+  -webkit-box-shadow: 0 3px 0 0 #c87f0a;
+  -moz-box-shadow: 0 3px 0 0 #c87f0a;
+  box-shadow: 0 3px 0 0 #c87f0a;
+}
+
+.btn-danger {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  border: 1px solid #c0392b;
+  -webkit-box-shadow: 0 3px 0 0 #962d22;
+  -moz-box-shadow: 0 3px 0 0 #962d22;
+  box-shadow: 0 3px 0 0 #962d22;
+  text-shadow: 0 -1px 0 #962d22;
+  background: #c0392b;
+  &:hover, &:focus, &:active, &.active {
+    border: 1px solid #d14233;
+    background: #d14233;
+  }
+  &[disabled], &.disabled, &[disabled]:hover, &.disabled:hover, &[disabled]:focus, &.disabled:focus, &[disabled]:active, &.disabled:active, &[disabled].active, &.disabled.active {
+    border: 1px solid #ab3326;
+    background: #ab3326;
+  }
+  &:active, &.active {
+    position: relative;
+    top: 1px;
+  }
+}
+
+.btn-group.open .btn-danger.dropdown-toggle {
+  -webkit-box-shadow: 0 3px 0 0 #962d22;
+  -moz-box-shadow: 0 3px 0 0 #962d22;
+  box-shadow: 0 3px 0 0 #962d22;
+}
+

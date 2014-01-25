@@ -1,0 +1,33 @@
+.tags {
+  margin-left: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  list-style: none;
+  li {
+    display: inline-block;
+    margin-bottom: 15px;
+    position: relative;
+    a {
+      margin-right: 5px;
+      padding: 6px 12px;
+      background: #353c46;
+      color: #fff;
+      text-decoration: none;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+      -webkit-background-clip: padding-box;
+      -moz-background-clip: padding;
+      background-clip: padding-box;
+      &:hover, &:focus {
+        background: #917ab8;
+      }
+    }
+    span {
+      margin-right: 5px;
+    }
+    .active {
+      background: #917ab8;
+    }
+  }
+}

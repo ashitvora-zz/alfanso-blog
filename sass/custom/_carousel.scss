@@ -1,0 +1,32 @@
+.carousel-inner > .item > {
+  img, a > img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carousel-inner > .item > {
+    img, a > img {
+      max-height: 100%;
+    }
+  }
+}
+
+.carousel-caption h1 {
+  text-transform: uppercase;
+  padding: 20px 20px;
+  color: #FFF;
+  background: #917ab8;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+.carousel-control {
+  .icon-prev, .icon-next {
+    font-size: 50px;
+  }
+}
